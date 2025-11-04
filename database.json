@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Baju Liverpool",
+      "price": 100000,
+      "pid": "baju-liverpool-001"
+    },
+    {
+      "id": "2",
+      "name": "Baju Barca",
+      "price": 200000,
+      "pid": "baju-liverpool-001"
+    },
+    {
+      "id": "3",
+      "name": "Baju Chelsea",
+      "price": 250000,
+      "pid": "baju-liverpool-001"
+    },
+    {
+      "id": "4",
+      "name": "Baju Arsenal",
+      "price": 300000,
+      "pid": "baju-liverpool-001"
+    },
+    {
+      "id": "5",
+      "name": "Baju Madrid",
+      "price": 500000,
+      "pid": "baju-liverpool-001"
+    },
+    {
+      "id": "f544",
+      "name": "baju lakers",
+      "price": 200000,
+      "pid": "baju-lakers-69"
+    }
+  ]
+}
