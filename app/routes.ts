@@ -17,7 +17,11 @@ export default [
   route("product/:pid", "routes/product.tsx"),
   route("products", "routes/products.tsx"),
   ...prefix("admin", [
-    route("products/create", "routes/admin/products-create.tsx"),
+    layout("layouts/admin-layouts.tsx", [
+      route("products/create", "routes/admin/products-create.tsx"),
+    ]),
+    route("logout", "routes/admin/logout.ts"),
+    route("login", "routes/admin/login.tsx"),
   ]),
 ] satisfies RouteConfig;
 
